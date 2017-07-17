@@ -1,0 +1,25 @@
+The program will write all of it's information to a text file.
+
+The format is as follows:
+
+Title
+ISBN Number
+Type/Category
+Publisher
+Number of Pages
+Price of Book
+Year book was published
+Name of Person who checked out book (Will be "Not checked out yet" if the book is not checked out)
+A 1 or 0 where zero means a book is not checked out and 1 means the book is checked out
+Month of due date (Will be 0 if book is not checked out)
+Day of due date (Will be 0 if book is not checked out)
+Year of due date (Will be 0 if book is not checked out)
+end or new book where end will cause the program to stop populating the list and new book will prepare a new blank structure within the array
+
+***End of Description***
+
+After "new book", the program will print details of a new book to the file
+in the same format as above. There will be nothing after "end" if printed.
+
+Daniel Singh
+UTA ID: 1000930800

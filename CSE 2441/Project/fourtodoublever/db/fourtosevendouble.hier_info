@@ -1,0 +1,21 @@
+|binarytodoubleseven
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+S[0] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+R[0] <= <VCC>
+R[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+R[2] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+R[3] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+R[4] <= <GND>
+R[5] <= <GND>
+R[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

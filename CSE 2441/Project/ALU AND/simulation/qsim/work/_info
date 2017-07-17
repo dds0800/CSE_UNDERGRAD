@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\College Stuff\Fall 2015\Digital Logic\Quartus Designs\ALU AND\simulation\qsim
+vALUAND
+Z1 IA@ok;n>8;<hDAh:6B[O3A1
+Z2 VG`4NSdHRlekdATSD`<mEV1
+Z3 dE:\College Stuff\Fall 2015\Digital Logic\Quartus Designs\ALU AND\simulation\qsim
+Z4 w1444402037
+Z5 8ALUAND.vo
+Z6 FALUAND.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@a@l@u@a@n@d
+!i10b 1
+Z10 !s100 WKo1PloSeZSW:ik@6jmdK0
+!s85 0
+Z11 !s108 1444402037.921000
+Z12 !s107 ALUAND.vo|
+Z13 !s90 -work|work|ALUAND.vo|
+!s101 -O0
+vALUAND_vlg_check_tst
+!i10b 1
+!s100 `J;_h><VY83<<5R8<fW=K0
+ILjzVLb5Conm>m`OoRD;?d2
+VzjH`0f4`[``D`2?Y:TYWC1
+R3
+Z14 w1444402036
+Z15 8ALUAND.vt
+Z16 FALUAND.vt
+L0 71
+R7
+r1
+!s85 0
+31
+Z17 !s108 1444402038.139000
+Z18 !s107 ALUAND.vt|
+Z19 !s90 -work|work|ALUAND.vt|
+!s101 -O0
+R8
+n@a@l@u@a@n@d_vlg_check_tst
+vALUAND_vlg_sample_tst
+!i10b 1
+!s100 =^CkjO1oCBc1W6aB[2S7c3
+IVFGHLUTOTHanaE_kD7W?k2
+VbV1_V0B?k3?j_oHW9dL5X0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@a@l@u@a@n@d_vlg_sample_tst
+vALUAND_vlg_vec_tst
+!i10b 1
+!s100 7VYham8KdeSQK6QlHoP8T1
+I=@I7eN[;cMFFNk5fALY;@0
+V_n6lH[c395X3nmSo[;7ne3
+R3
+R14
+R15
+R16
+L0 247
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@a@l@u@a@n@d_vlg_vec_tst

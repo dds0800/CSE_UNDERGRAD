@@ -1,0 +1,43 @@
+|controller
+Clock => state[0]~reg0.CLK
+Clock => state[1]~reg0.CLK
+Clock => state[2]~reg0.CLK
+Clock => state[3]~reg0.CLK
+I3 => Mux15.IN16
+I3 => Mux16.IN16
+I3 => Mux17.IN16
+I3 => Mux18.IN16
+I3 => Mux19.IN16
+I2 => Mux15.IN17
+I2 => Mux16.IN17
+I2 => Mux17.IN17
+I2 => Mux18.IN17
+I2 => Mux19.IN17
+I1 => Mux15.IN18
+I1 => Mux16.IN18
+I1 => Mux17.IN18
+I1 => Mux18.IN18
+I1 => Mux19.IN18
+I0 => Mux15.IN19
+I0 => Mux16.IN19
+I0 => Mux17.IN19
+I0 => Mux18.IN19
+I0 => Mux19.IN19
+S[0] <= S[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= S[8]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= S[9]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= S[10]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= S[11]$latch.DB_MAX_OUTPUT_PORT_TYPE
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

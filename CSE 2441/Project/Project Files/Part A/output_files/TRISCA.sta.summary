@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Control:inst4|7474:inst1|9'
+Slack : -6.078
+TNS   : -21.358
+
+Type  : Slow Model Setup 'Clock'
+Slack : -2.564
+TNS   : -18.706
+
+Type  : Slow Model Setup '74175reg:inst3|74175:2|13'
+Slack : -1.996
+TNS   : -2.379
+
+Type  : Slow Model Hold 'Clock'
+Slack : -2.598
+TNS   : -3.615
+
+Type  : Slow Model Hold '74175reg:inst3|74175:2|13'
+Slack : -2.257
+TNS   : -2.944
+
+Type  : Slow Model Hold 'Control:inst4|7474:inst1|9'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'Control:inst4|7474:inst1|9'
+Slack : 0.789
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Control:inst4|7474:inst1|9'
+Slack : -4.354
+TNS   : -31.656
+
+Type  : Slow Model Minimum Pulse Width 'Clock'
+Slack : -2.064
+TNS   : -71.183
+
+Type  : Slow Model Minimum Pulse Width 'Control:inst4|7474:inst1|9'
+Slack : -0.611
+TNS   : -14.664
+
+Type  : Slow Model Minimum Pulse Width '74175reg:inst3|74175:2|13'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Control:inst4|7474:inst1|9'
+Slack : -2.548
+TNS   : -8.004
+
+Type  : Fast Model Setup 'Clock'
+Slack : -1.460
+TNS   : -9.756
+
+Type  : Fast Model Setup '74175reg:inst3|74175:2|13'
+Slack : -0.263
+TNS   : -0.263
+
+Type  : Fast Model Hold 'Clock'
+Slack : -1.384
+TNS   : -2.704
+
+Type  : Fast Model Hold '74175reg:inst3|74175:2|13'
+Slack : -0.848
+TNS   : -1.083
+
+Type  : Fast Model Hold 'Control:inst4|7474:inst1|9'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'Control:inst4|7474:inst1|9'
+Slack : 1.071
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Control:inst4|7474:inst1|9'
+Slack : -2.250
+TNS   : -16.600
+
+Type  : Fast Model Minimum Pulse Width 'Clock'
+Slack : -2.000
+TNS   : -68.222
+
+Type  : Fast Model Minimum Pulse Width 'Control:inst4|7474:inst1|9'
+Slack : -0.500
+TNS   : -12.000
+
+Type  : Fast Model Minimum Pulse Width '74175reg:inst3|74175:2|13'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

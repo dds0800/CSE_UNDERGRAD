@@ -1,0 +1,35 @@
+|TRISCPC
+ADDR3 <= Count[3].DB_MAX_OUTPUT_PORT_TYPE
+CLEAR => Counter:inst1.Clear
+Load => Counter:inst1.Load
+INC => Counter:inst1.Clock
+A => Counter:inst1.A
+B => Counter:inst1.B
+C => Counter:inst1.C
+D => Counter:inst1.D
+ADDR2 <= Count[2].DB_MAX_OUTPUT_PORT_TYPE
+ADDR1 <= Count[1].DB_MAX_OUTPUT_PORT_TYPE
+ADDR0 <= Count[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRISCPC|Counter:inst1
+Count[0] <= Count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[1] <= Count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[2] <= Count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[3] <= Count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Clear => Count[3].IN0
+Clear => Count[0]~reg0.ACLR
+Clear => Count[1]~reg0.ACLR
+Clear => Count[2]~reg0.ACLR
+Clear => Count[3]~reg0.ACLR
+Load => Count[3].IN1
+Clock => Count[0]~reg0.CLK
+Clock => Count[1]~reg0.CLK
+Clock => Count[2]~reg0.CLK
+Clock => Count[3]~reg0.CLK
+A => Count[3]~reg0.ADATA
+B => Count[2]~reg0.ADATA
+C => Count[1]~reg0.ADATA
+D => Count[0]~reg0.ADATA
+
+

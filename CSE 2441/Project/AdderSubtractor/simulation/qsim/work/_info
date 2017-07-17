@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Daniel\Desktop\College Stuff\Fall 2015\Digital Logic\Quartus Designs\AdderSubtractor\simulation\qsim
+vAdderSubtractor
+Z1 IT^oDHZ4==WLC`c41hHkPi2
+Z2 V29]WcXYiXnkbmjSUUW^DA1
+Z3 dC:\Users\Daniel\Desktop\College Stuff\Fall 2015\Digital Logic\Quartus Designs\AdderSubtractor\simulation\qsim
+Z4 w1442684527
+Z5 8AdderSubtractor.vo
+Z6 FAdderSubtractor.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@adder@subtractor
+!i10b 1
+Z10 !s100 b55<38>EWPYUUA9h06;eD3
+!s85 0
+Z11 !s108 1442684533.649000
+Z12 !s107 AdderSubtractor.vo|
+Z13 !s90 -work|work|AdderSubtractor.vo|
+!s101 -O0
+vAdderSubtractor_vlg_check_tst
+!i10b 1
+!s100 LmXbSUcY@ObNYjn0Ro1>F0
+IB^mH;iSX=3hK<5?OSRU842
+VELgKA?]ic6h6f9?^M`HDW0
+R3
+Z14 w1442684523
+Z15 8AdderSubtractor.vt
+Z16 FAdderSubtractor.vt
+L0 73
+R7
+r1
+!s85 0
+31
+Z17 !s108 1442684533.809000
+Z18 !s107 AdderSubtractor.vt|
+Z19 !s90 -work|work|AdderSubtractor.vt|
+!s101 -O0
+R8
+n@adder@subtractor_vlg_check_tst
+vAdderSubtractor_vlg_sample_tst
+!i10b 1
+!s100 HFS9zfiE0SP8HamD0IBG33
+IXG[kg01d_eFQSoZk>aXDP2
+VQ3[PZIKAnL1A;Iefe_[IX2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@adder@subtractor_vlg_sample_tst
+vAdderSubtractor_vlg_vec_tst
+!i10b 1
+!s100 5FoQ:XV^^5N?lzTaV?Doo2
+IZ7HDl9fkRKWLeQG92Wbh61
+VT:JSg5LRU;09YE7474QnS3
+R3
+R14
+R15
+R16
+L0 276
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@adder@subtractor_vlg_vec_tst

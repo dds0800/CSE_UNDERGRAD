@@ -1,0 +1,237 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'controller:inst1|S[5]'
+Slack : -7.612
+TNS   : -28.988
+
+Type  : Slow Model Setup 'controller:inst1|S[7]'
+Slack : -7.317
+TNS   : -45.094
+
+Type  : Slow Model Setup 'controller:inst1|S[3]'
+Slack : -6.850
+TNS   : -24.258
+
+Type  : Slow Model Setup 'controller:inst1|S[0]'
+Slack : -6.452
+TNS   : -23.854
+
+Type  : Slow Model Setup 'controller:inst1|state[0]'
+Slack : -4.308
+TNS   : -29.650
+
+Type  : Slow Model Setup 'Clock'
+Slack : -2.639
+TNS   : -59.180
+
+Type  : Slow Model Setup '74175reg:inst3|74175:2|13'
+Slack : 1.301
+TNS   : 0.000
+
+Type  : Slow Model Hold 'Clock'
+Slack : -5.387
+TNS   : -48.240
+
+Type  : Slow Model Hold 'controller:inst1|S[3]'
+Slack : -3.382
+TNS   : -12.383
+
+Type  : Slow Model Hold '74175reg:inst3|74175:2|13'
+Slack : -2.546
+TNS   : -9.697
+
+Type  : Slow Model Hold 'controller:inst1|state[0]'
+Slack : -1.822
+TNS   : -7.966
+
+Type  : Slow Model Hold 'controller:inst1|S[7]'
+Slack : -1.734
+TNS   : -5.469
+
+Type  : Slow Model Hold 'controller:inst1|S[5]'
+Slack : -0.798
+TNS   : -2.416
+
+Type  : Slow Model Hold 'controller:inst1|S[0]'
+Slack : 5.497
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'controller:inst1|S[5]'
+Slack : -0.691
+TNS   : -2.360
+
+Type  : Slow Model Recovery 'controller:inst1|S[0]'
+Slack : -0.306
+TNS   : -0.306
+
+Type  : Slow Model Recovery 'controller:inst1|S[7]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'controller:inst1|S[3]'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow Model Removal 'controller:inst1|S[3]'
+Slack : -1.444
+TNS   : -5.261
+
+Type  : Slow Model Removal 'controller:inst1|S[7]'
+Slack : -1.439
+TNS   : -5.431
+
+Type  : Slow Model Removal 'controller:inst1|S[0]'
+Slack : -0.492
+TNS   : -1.758
+
+Type  : Slow Model Removal 'controller:inst1|S[5]'
+Slack : -0.260
+TNS   : -0.636
+
+Type  : Slow Model Minimum Pulse Width 'Clock'
+Slack : -2.064
+TNS   : -126.069
+
+Type  : Slow Model Minimum Pulse Width 'controller:inst1|S[7]'
+Slack : -0.611
+TNS   : -9.776
+
+Type  : Slow Model Minimum Pulse Width 'controller:inst1|S[5]'
+Slack : -0.611
+TNS   : -4.888
+
+Type  : Slow Model Minimum Pulse Width '74175reg:inst3|74175:2|13'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'controller:inst1|S[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'controller:inst1|S[3]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'controller:inst1|state[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'controller:inst1|S[7]'
+Slack : -3.062
+TNS   : -16.061
+
+Type  : Fast Model Setup 'controller:inst1|S[3]'
+Slack : -2.714
+TNS   : -9.694
+
+Type  : Fast Model Setup 'controller:inst1|S[5]'
+Slack : -2.609
+TNS   : -9.921
+
+Type  : Fast Model Setup 'controller:inst1|S[0]'
+Slack : -2.556
+TNS   : -9.469
+
+Type  : Fast Model Setup 'Clock'
+Slack : -1.460
+TNS   : -21.412
+
+Type  : Fast Model Setup 'controller:inst1|state[0]'
+Slack : -1.420
+TNS   : -5.959
+
+Type  : Fast Model Setup '74175reg:inst3|74175:2|13'
+Slack : 1.595
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Clock'
+Slack : -3.067
+TNS   : -28.507
+
+Type  : Fast Model Hold 'controller:inst1|S[3]'
+Slack : -1.804
+TNS   : -6.789
+
+Type  : Fast Model Hold '74175reg:inst3|74175:2|13'
+Slack : -1.518
+TNS   : -5.942
+
+Type  : Fast Model Hold 'controller:inst1|S[7]'
+Slack : -1.396
+TNS   : -5.115
+
+Type  : Fast Model Hold 'controller:inst1|state[0]'
+Slack : -1.262
+TNS   : -5.882
+
+Type  : Fast Model Hold 'controller:inst1|S[5]'
+Slack : -0.953
+TNS   : -3.557
+
+Type  : Fast Model Hold 'controller:inst1|S[0]'
+Slack : 2.853
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'controller:inst1|S[0]'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'controller:inst1|S[5]'
+Slack : 0.865
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'controller:inst1|S[3]'
+Slack : 1.016
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'controller:inst1|S[7]'
+Slack : 1.378
+TNS   : 0.000
+
+Type  : Fast Model Removal 'controller:inst1|S[7]'
+Slack : -1.165
+TNS   : -4.525
+
+Type  : Fast Model Removal 'controller:inst1|S[3]'
+Slack : -0.756
+TNS   : -2.839
+
+Type  : Fast Model Removal 'controller:inst1|S[5]'
+Slack : -0.609
+TNS   : -2.260
+
+Type  : Fast Model Removal 'controller:inst1|S[0]'
+Slack : -0.415
+TNS   : -1.584
+
+Type  : Fast Model Minimum Pulse Width 'Clock'
+Slack : -2.000
+TNS   : -121.222
+
+Type  : Fast Model Minimum Pulse Width 'controller:inst1|S[7]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'controller:inst1|S[5]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width '74175reg:inst3|74175:2|13'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'controller:inst1|S[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'controller:inst1|S[3]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'controller:inst1|state[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

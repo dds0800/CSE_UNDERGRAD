@@ -1,0 +1,8 @@
+car
+x
+house
+door
+ash
+a
+elephant
+back

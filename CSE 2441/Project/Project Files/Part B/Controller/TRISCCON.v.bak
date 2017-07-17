@@ -1,0 +1,22 @@
+/*This is a controller that implements
+ *INC, CLR, LDA, STA, ADD, and JMP instructions*/
+ 
+module controller(Clock,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10
+	C0,C3,C4,C42,C2,C7,C9,C8,C11,C10,C5,C1);
+	
+	input Clock, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10;
+	output C0, C3, C4, C42, C2, C7, C9, C8, C11, C10, C5, C1;
+	reg[2:0]phase;
+   parameter P1=3'b000, P2=3'b001, P3=3'b010, P4=3'b011, P5=3'b100, P6=3'b101 
+	phase = P1;
+	
+	always @ (posedge Clock)
+		case(phase)
+			3'b000: begin phase=P2, C0 = 1'b1; end
+			3'b001: begin phase=P3, C3 = 1'b1; end
+			3'b010: begin phase=P4, C4 = 1'b1; end
+			3'b011: begin phase=P5, C42 = 1'b1; end
+			3'b100: begin phase=P6, C2 = 1'b1, C7 = 1'b1; end
+			3'b101: begin 
+			
+			// Check decoder outputs here

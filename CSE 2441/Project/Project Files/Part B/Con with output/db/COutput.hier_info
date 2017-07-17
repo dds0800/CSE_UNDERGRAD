@@ -1,0 +1,84 @@
+|COutput
+HX0 <= binarytosingleseven:inst2.a
+Clock => controller:inst1.Clock
+SW3 => controller:inst1.I3
+SW2 => controller:inst1.I2
+SW1 => controller:inst1.I1
+SW0 => controller:inst1.I0
+HX1 <= binarytosingleseven:inst2.b
+HX2 <= binarytosingleseven:inst2.c
+HX3 <= binarytosingleseven:inst2.d
+HX4 <= binarytosingleseven:inst2.e
+HX5 <= binarytosingleseven:inst2.f
+HX6 <= binarytosingleseven:inst2.g
+Sig8 <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sig1 <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sig5 <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sig9 <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sig0 <= S[11].DB_MAX_OUTPUT_PORT_TYPE
+Sig3 <= S[10].DB_MAX_OUTPUT_PORT_TYPE
+Sig4 <= S[9].DB_MAX_OUTPUT_PORT_TYPE
+Sig42 <= S[8].DB_MAX_OUTPUT_PORT_TYPE
+Sig2 <= S[7].DB_MAX_OUTPUT_PORT_TYPE
+Sig7 <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+Sig11 <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sig10 <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|COutput|binarytosingleseven:inst2
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|COutput|controller:inst1
+Clock => state[0]~reg0.CLK
+Clock => state[1]~reg0.CLK
+Clock => state[2]~reg0.CLK
+Clock => state[3]~reg0.CLK
+I3 => Mux15.IN16
+I3 => Mux16.IN16
+I3 => Mux17.IN16
+I3 => Mux18.IN16
+I3 => Mux19.IN16
+I2 => Mux15.IN17
+I2 => Mux16.IN17
+I2 => Mux17.IN17
+I2 => Mux18.IN17
+I2 => Mux19.IN17
+I1 => Mux15.IN18
+I1 => Mux16.IN18
+I1 => Mux17.IN18
+I1 => Mux18.IN18
+I1 => Mux19.IN18
+I0 => Mux15.IN19
+I0 => Mux16.IN19
+I0 => Mux17.IN19
+I0 => Mux18.IN19
+I0 => Mux19.IN19
+S[0] <= S[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= S[8]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= S[9]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= S[10]$latch.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= S[11]$latch.DB_MAX_OUTPUT_PORT_TYPE
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
